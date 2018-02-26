@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #00796B;
+    color: white;
+}
+
+#identification_ville {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+#valider {
+    background: white;
+    color: #00796B;
+    border-radius: 20px;
+}
+
+#date {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+    opacity: 0.4;
+}
+
