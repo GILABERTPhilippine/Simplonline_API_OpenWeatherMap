@@ -1,0 +1,13 @@
+Fonction date automatiquement à jour
+
+ETAPE:
+- Avec le site moment.js
+- Installer moment sur l'ordi 
+- Copier le fichier moment-with-locales.js, l'ajouter dans le fichier JS
+- Ajouter un div ou autre avec un id que l'on appellera ensuite dans le script.js
+- Mettre la date en français avec la fonction suivante :
+    moment.locale("fr");
+- Utilisation du jQuery + fonction moment avec le format de la date 
+    $("#nom_id).text.(moment().format('LL'));
+
+Fonction OK
