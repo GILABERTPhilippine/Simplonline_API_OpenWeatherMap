@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 <head>
     <meta charset="utf-8" />
     <title>WeatherMap</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/index.css" />
 </head>
@@ -12,11 +14,18 @@
         <input type="text" name "ville" maxlength="30">
         <a class="waves-effect waves-dark btn" id="valider">Valider</a>
     </div>
-
     <div id="date"></div>
-    
+    <div class="map">
+        <!-- <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d373085.76546294277!2d1.4146279!3d43.0680924!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1519668636178" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+        <div onload="initialiser()" id="carte"></div>
+        <span id="text_latlng"></span>
+        <div id="position"></div>
+
+    </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfTBVZ42XfpGFh9I-L8H9x1bi9hZKI0nU&callback=initMap"
+    type="text/javascript"></script>
     <script src="JS/moment.js"></script>
     <script src="JS/script.js"></script>
 </body>

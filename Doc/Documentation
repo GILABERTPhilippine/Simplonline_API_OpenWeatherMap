@@ -1,7 +1,7 @@
 Fonction date automatiquement à jour
-
 ETAPE:
 - Avec le site moment.js
+- https://momentjs.com
 - Installer moment sur l'ordi 
 - Copier le fichier moment-with-locales.js, l'ajouter dans le fichier JS
 - Ajouter un div ou autre avec un id que l'on appellera ensuite dans le script.js
@@ -11,3 +11,14 @@ ETAPE:
     $("#nom_id).text.(moment().format('LL'));
 
 Fonction OK
+
+Création de la clé API sur goole
+API KEY : 
+AIzaSyBfTBVZ42XfpGFh9I-L8H9x1bi9hZKI0nU
+Liens:
+https://developers.google.com/maps/documentation/javascript/get-api-key
+
+Afficher la carte 
+liens : 
+https://openclassrooms.com/courses/google-maps-javascript-api-v3
+http://memo-web.fr/categorie-divers-220.php
