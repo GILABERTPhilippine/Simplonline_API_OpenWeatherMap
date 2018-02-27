@@ -12,13 +12,22 @@ ETAPE:
 
 Fonction OK
 
-Création de la clé API sur goole
+Création de la clé API sur google
 API KEY : 
 AIzaSyBfTBVZ42XfpGFh9I-L8H9x1bi9hZKI0nU
 Liens:
 https://developers.google.com/maps/documentation/javascript/get-api-key
 
+Création de la clé API sur OpenWeatherMAP
+API KEY:
+aea20090de4141f70b5989b62d66699f par defaut
+Liens:
+https://home.openweathermap.org/api_keys
+
+
 Afficher la carte 
 liens : 
 https://openclassrooms.com/courses/google-maps-javascript-api-v3
 http://memo-web.fr/categorie-divers-220.php
+https://developers.google.com/maps/documentation/javascript/examples/event-domListener?hl=fr
+<iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d373085.76546294277!2d1.4146279!3d43.0680924!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1519668636178" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
