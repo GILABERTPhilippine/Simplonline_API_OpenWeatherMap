@@ -11,7 +11,7 @@
 </head>
 <body>
     <form class="container" id="identification_ville">
-        <input type="text" name "ville" maxlength="30">
+        <input type="text" name "ville" id="ville" maxlength="30">
         <a class="waves-effect waves-dark btn" id="valider">Valider</a>
     </form>
     <div id="date"></div>
@@ -35,6 +35,7 @@
     
     <div class="container" id="carte">
         <p>Longitude : <span id="longitude"></span> &nbsp; &nbsp; &nbsp;Latitude : <span id="latitude"></span></p>
+        <iframe src="http://{s}.maps.owm.io:8099/5a956bbe6b678e000159daea/{z}/{x}/{y}?hash=3f47360e8e474eae28354f25aa731948"></iframe>
     </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
