@@ -14,7 +14,7 @@ Fonction OK
 
 Création de la clé API sur google
 API KEY : 
-AIzaSyBfTBVZ42XfpGFh9I-L8H9x1bi9hZKI0nU
+AIzaSyDv-spiEhDJZfoGge7NAxMECClWHHbxd2Q
 Liens:
 https://developers.google.com/maps/documentation/javascript/get-api-key
 
@@ -33,6 +33,7 @@ https://developers.google.com/maps/documentation/javascript/examples/event-domLi
 
 GOOGLE MAP
 <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d373085.76546294277!2d1.4146279!3d43.0680924!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1519668636178" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfTBVZ42XfpGFh9I-L8H9x1bi9hZKI0nU&callback=initMap" type="text/javascript"></script>
 
 OpenWeatherMAP
 <iframe src="https://tile.openweathermap.org/map/.sat.owm.io/sql/{14}/{43.12}/{1.6}/?appid=a98ee53cd7e7fdf70c48f4e96d5e60da&op=truecolor&from=aqua"></iframe>
