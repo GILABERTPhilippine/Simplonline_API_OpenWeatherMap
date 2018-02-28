@@ -6,6 +6,15 @@ body {
     color: white;
 }
 
+@media (max-width: 700px){
+    .row .col.s6  {
+       width: 100%;
+    }
+    #donneesMeteo {
+        display: none;
+    }
+}
+
 
 /* input */
 #identification_ville {
@@ -37,7 +46,6 @@ body {
 }
 
 h1 {
-    /* margin-left: 30%; */
     text-align: center;
     font-size: 150px;
     font-weight:lighter;
@@ -45,6 +53,10 @@ h1 {
 
 #donneesMeteo {
     margin-right: 30%;
+}
+
+#btnadd {
+    margin-left: 70%;
 }
 
 

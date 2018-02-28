@@ -5,7 +5,6 @@
     <title>WeatherMap</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/index.css" />
 </head>
@@ -29,18 +28,20 @@
                 <p>Vitesse du vent : <span id="vent"></span> km/h</p>
                 <p>Humidité : <span id="humidite"></span> %</p>
             </div>
-        </div>
-        
+        </div>    
+    </div>
+    <div class="container">
+        <a class="btn-floating btn-large waves-effect waves-light" id="btnadd"><i class="material-icons">+</i></a>
     </div>
     
     <div class="container" id="carte">
         <p>Longitude : <span id="longitude"></span> &nbsp; &nbsp; &nbsp;Latitude : <span id="latitude"></span></p>
-        <iframe src="http://{s}.maps.owm.io:8099/5a956bbe6b678e000159daea/{z}/{x}/{y}?hash=3f47360e8e474eae28354f25aa731948"></iframe>
+        
     </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfTBVZ42XfpGFh9I-L8H9x1bi9hZKI0nU&callback=initMap" type="text/javascript"></script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfTBVZ42XfpGFh9I-L8H9x1bi9hZKI0nU&callback=initMap" type="text/javascript"></script>
     <script src="JS/moment.js"></script>
-    <script src="JS/script.js"></script>
+    <script src="JS/app.js"></script>
 </body>
 </html>

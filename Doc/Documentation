@@ -30,4 +30,9 @@ liens :
 https://openclassrooms.com/courses/google-maps-javascript-api-v3
 http://memo-web.fr/categorie-divers-220.php
 https://developers.google.com/maps/documentation/javascript/examples/event-domListener?hl=fr
+
+GOOGLE MAP
 <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d373085.76546294277!2d1.4146279!3d43.0680924!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1519668636178" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+OpenWeatherMAP
+<iframe src="https://tile.openweathermap.org/map/.sat.owm.io/sql/{14}/{43.12}/{1.6}/?appid=a98ee53cd7e7fdf70c48f4e96d5e60da&op=truecolor&from=aqua"></iframe>
