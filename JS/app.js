@@ -67,5 +67,3 @@ $(function() {
     }   
 });
 
-// Afficher la carte avec Google map
-
