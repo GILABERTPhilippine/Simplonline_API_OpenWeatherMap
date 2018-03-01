@@ -37,3 +37,12 @@ GOOGLE MAP
 
 OpenWeatherMAP
 <iframe src="https://tile.openweathermap.org/map/.sat.owm.io/sql/{14}/{43.12}/{1.6}/?appid=a98ee53cd7e7fdf70c48f4e96d5e60da&op=truecolor&from=aqua"></iframe>
+
+Fonction pression bouton entrer
+avec keypress
+$("#ville").keypress(function(e){
+    if ( e.keyCode == 13 ) {
+        ville = $("#ville").val();
+        meteo(ville);
+    }
+});

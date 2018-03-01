@@ -8,17 +8,20 @@
     <link rel="stylesheet" type="text/css" href="CSS/index.css" />
 </head>
 <body>
-    <form class="container" id="identification_ville">
-        <input type="text" name "ville" id="ville" maxlength="30">
+    <div class="container" id="identification_ville">
+        <input type="text" name "ville" value="Pamiers" id="ville" maxlength="30">
         <a class="waves-effect waves-dark btn" id="valider">Valider</a>
-    </form>
+    </div>
     <div id="date"></div>
+    <!-- partie principale pour les deux colonnes -->
     <div class="row">
+        <!-- Premiere colonne -->
         <div class="col s6">
             <h1>
                 <span id="temperature"></span>°
             </h1>
         </div>
+        <!-- Deuxieme colonne  -->
         <div class="col s6">
             <div id="donneesMeteo">
                 <p>Temp. max : <span id="tempMax"></span> °</p>

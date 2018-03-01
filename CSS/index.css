@@ -15,6 +15,9 @@ body {
     }
 }
 
+.material-icons {
+    display: none; 
+} 
 
 /* input */
 #identification_ville {
@@ -61,6 +64,7 @@ h1 {
 
 
 #carte {
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top : 5%;
+    height: 500px;
 }
