@@ -6,7 +6,7 @@ $("#date").text(moment().format('LL'));
 var ville = $("#ville").val();
 function meteo(ville){
     $.ajax({
-        url: "http://api.openweathermap.org/data/2.5/weather?q="+ ville +"&units=metric&lang=fr&appid=aea20090de4141f70b5989b62d66699f",
+        url: "https://api.openweathermap.org/data/2.5/weather?q="+ ville +"&units=metric&lang=fr&appid=aea20090de4141f70b5989b62d66699f",
         type: "POST",
         dataType: "jsonp",
         success: function(data){
